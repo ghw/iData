@@ -1,0 +1,34 @@
+xvt.background:black
+URxvt*transparent:true
+URxvt*shading: 20
+URxvt.background: [55]#000000
+URxvt.foreground: White
+URxvt.geometry: 90x25+180+200
+URxvt.colorBD:yellow
+URxvt.colorUL:green
+URxvt.cursorColor:red3
+URxvt.color0:black
+URxvt.color1:red2
+URxvt.color2:springgreen
+URxvt.color3:wheat3
+URxvt.color4:RoyalBlue
+URxvt.color5:Magenta2
+URxvt.color6:steelblue1
+URxvt.color7:gray85
+URxvt.color8:Gray50
+URxvt.color9:orangered2
+URxvt.color10:Green2
+URxvt.color11:lightgoldenrod2
+URxvt.color12:skyblue1
+URxvt.color13:pink1
+URxvt.color14:Cyan2
+URxvt.color15:Gray95
+URxvt.scrollBar:False
+URxvt.saveLines:3000
+URxvt.font:xft:Bitstream Vera Sans Mono-10,xft:WenQuanYi Bitmap Song-10
+URxvt.boldFont:xft:Bitstream Vera Sans Mono-10:Bold,xft:WenQuanYi Bitmap Song-10:Bold
+URxvt.preeditType:Root
+URxvt.perl-ext-common: default,tabbed
+URxvt.tabbed.tab-fg: 12
+URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.tabbar-fg: 4
