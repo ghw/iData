@@ -1,3 +1,5 @@
 [user]
 	name = Haowu Ge
 	email = ghw@7axu.com
+[push]
+	default = simple
