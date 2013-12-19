@@ -24,7 +24,7 @@ set fileformats=unix,dos,mac
 if has("multi_byte")
         set encoding=utf8
         set fileencoding=utf8
-        set fileencodings=utf-8,gb18030,gb2312,cp936,gbk,utf-16,chinese
+        set fileencodings=utf-8,gb18030,gb2312,cp936,gbk,big5,utf-16,chinese
 endif
 "设置搜索高亮显示
 set hlsearch
@@ -127,7 +127,16 @@ let g:clang_snippets_engine = 'clang_complete'
 let g:clang_close_preview=1
 let g:clang_use_library=1
 let g:clang_user_options='-stdlib=libc++ -std=c++11 -IIncludePath'
-       
+
+"sgml
+augroup xmledit
+  autocmd FileType xml set formatoptions=cq2l " Special formatting options
+  autocmd FileType xml set textwidth=70       " Wrap lines at 70 columns
+  autocmd FileType xml set shiftwidth=2       " Automatically indent
+  autocmd FileType xml set softtabstop=2      " Tab key indents 2 spaces
+  autocmd FileType xml set tabstop=8          " Replace 8 spaces with a tab
+  autocmd FileType xml set autoindent         " Automatic indentation
+augroup END       
        
        
        " 折叠

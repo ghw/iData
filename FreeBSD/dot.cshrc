@@ -34,9 +34,9 @@ alias mktmp "mdmfs -s 3g md9 /usr/obj"
 # A righteous umask
 umask 22
 
-set path = (/sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/bin)
+set path = (/usr/local/libexec/ccache /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/bin)
 
-setenv	EDITOR	vi                    #设置 VIM 为默认编辑器
+setenv	EDITOR	vim                    #设置 VIM 为默认编辑器
 setenv	PAGER	less
 setenv	BLOCKSIZE	K
 setenv CVSROOT :pserver:anoncvs@anoncvs.cn.FreeBSD.org:/home/cnproj #FreeBSD中文项目 CVS 镜像
@@ -55,6 +55,12 @@ setenv  XIM fcitx                       #默认输入法
 setenv  XMODIFIERS "@im=fcitx"
 setenv  GTK_IM_MODULE fcitx
 setenv  QT_IM_MODULE fcitx
+#setenv XIM ibus
+#setenv GTK_IM_MODULE ibus
+#setenv QT_IM_MODULE xim
+#setenv XMODIFIERS @im=ibus
+#setenv XIM_PROGRAM ibus-daemon
+#setenv XIM_ARGS "--daemonize --xim"
 
 if ($?prompt) then
 	# An interactive shell -- set some stuff up
