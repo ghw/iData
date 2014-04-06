@@ -8,6 +8,8 @@ export XMODIFIERS=@im=fcitx
 export XIM=fcitx 
 export XIM_PROGRAM=/usr/local/bin/fcitx 
 export XMODIFIERS=@im=fcitx
-exec fcitx&
-exec xcompmgr&
-exec awesome
+#exec fcitx&
+#exec xcompmgr&
+#exec awesome
+#exec mate-session
+exec enlightenment_start

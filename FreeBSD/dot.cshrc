@@ -34,7 +34,7 @@ alias mktmp "mdmfs -s 3g md9 /usr/obj"
 # A righteous umask
 umask 22
 
-set path = (/usr/local/libexec/ccache /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin $HOME/bin)
+set path = (/usr/local/libexec/ccache /sbin /bin /usr/sbin /usr/bin /usr/games /usr/local/sbin /usr/local/bin /usr/local/kde4/bin $HOME/bin)
 
 setenv	EDITOR	vim                    #设置 VIM 为默认编辑器
 setenv	PAGER	less
