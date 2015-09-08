@@ -1,0 +1,144 @@
+[    33.330] 
+X.Org X Server 1.14.7
+Release Date: 2014-06-05
+[    33.330] X Protocol Version 11, Revision 0
+[    33.330] Build Operating System: FreeBSD 10.2-RELEASE amd64 
+[    33.330] Current Operating System: FreeBSD 7axu.com 10.2-RELEASE FreeBSD 10.2-RELEASE #0 r286666: Wed Aug 12 15:26:37 UTC 2015     root@releng1.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC amd64
+[    33.330] Build Date: 06 September 2015  09:10:42PM
+[    33.330]  
+[    33.330] Current version of pixman: 0.32.6
+[    33.330] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    33.330] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    33.330] (==) Log file: "/var/log/Xorg.0.log", Time: Tue Sep  8 22:43:09 2015
+[    33.391] (==) Using system config directory "/usr/local/share/X11/xorg.conf.d"
+[    33.400] (==) No Layout section.  Using the first Screen section.
+[    33.401] (==) No screen section available. Using defaults.
+[    33.401] (**) |-->Screen "Default Screen Section" (0)
+[    33.401] (**) |   |-->Monitor "<default monitor>"
+[    33.401] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    33.401] (==) Automatically adding devices
+[    33.401] (==) Automatically enabling devices
+[    33.401] (==) Not automatically adding GPU devices
+[    33.411] (WW) The directory "/usr/local/share/fonts/misc/" does not exist.
+[    33.411] 	Entry deleted from font path.
+[    33.434] (WW) The directory "/usr/local/share/fonts/Type1/" does not exist.
+[    33.434] 	Entry deleted from font path.
+[    33.434] (WW) The directory "/usr/local/share/fonts/100dpi/" does not exist.
+[    33.434] 	Entry deleted from font path.
+[    33.434] (WW) The directory "/usr/local/share/fonts/75dpi/" does not exist.
+[    33.434] 	Entry deleted from font path.
+[    33.434] (==) FontPath set to:
+	/usr/local/share/fonts/TTF/,
+	/usr/local/share/fonts/OTF/
+[    33.434] (==) ModulePath set to "/usr/local/lib/xorg/modules"
+[    33.434] (II) The server relies on devd to provide the list of input devices.
+	If no devices become available, reconfigure devd or disable AutoAddDevices.
+[    33.434] (II) Loader magic: 0x7f9ad0
+[    33.434] (II) Module ABI versions:
+[    33.434] 	X.Org ANSI C Emulation: 0.4
+[    33.434] 	X.Org Video Driver: 14.1
+[    33.434] 	X.Org XInput driver : 19.1
+[    33.434] 	X.Org Server Extension : 7.0
+[    33.434] (--) PCI:*(0:0:2:0) 8086:0416:17aa:502a rev 6, Mem @ 0xf0000000/4194304, 0xe0000000/268435456, I/O @ 0x00006000/64, BIOS @ 0x????????/65536
+[    33.444] Initializing built-in extension Generic Event Extension
+[    33.444] Initializing built-in extension SHAPE
+[    33.444] Initializing built-in extension MIT-SHM
+[    33.444] Initializing built-in extension XInputExtension
+[    33.444] Initializing built-in extension XTEST
+[    33.444] Initializing built-in extension BIG-REQUESTS
+[    33.444] Initializing built-in extension SYNC
+[    33.444] Initializing built-in extension XKEYBOARD
+[    33.445] Initializing built-in extension XC-MISC
+[    33.445] Initializing built-in extension XINERAMA
+[    33.445] Initializing built-in extension XFIXES
+[    33.445] Initializing built-in extension RENDER
+[    33.445] Initializing built-in extension RANDR
+[    33.445] Initializing built-in extension COMPOSITE
+[    33.445] Initializing built-in extension DAMAGE
+[    33.445] Initializing built-in extension MIT-SCREEN-SAVER
+[    33.445] Initializing built-in extension DOUBLE-BUFFER
+[    33.445] Initializing built-in extension RECORD
+[    33.445] Initializing built-in extension DPMS
+[    33.445] Initializing built-in extension X-Resource
+[    33.445] Initializing built-in extension XVideo
+[    33.445] Initializing built-in extension XVideo-MotionCompensation
+[    33.445] Initializing built-in extension XFree86-VidModeExtension
+[    33.445] Initializing built-in extension XFree86-DGA
+[    33.445] Initializing built-in extension XFree86-DRI
+[    33.445] Initializing built-in extension DRI2
+[    33.445] (II) LoadModule: "glx"
+[    33.472] (II) Loading /usr/local/lib/xorg/modules/extensions/libglx.so
+[    33.489] (II) Module glx: vendor="X.Org Foundation"
+[    33.490] 	compiled for 1.14.7, module version = 1.0.0
+[    33.490] 	ABI class: X.Org Server Extension, version 7.0
+[    33.490] (==) AIGLX enabled
+[    33.491] Loading extension GLX
+[    33.491] (==) Matched intel as autoconfigured driver 0
+[    33.491] (==) Matched vesa as autoconfigured driver 1
+[    33.491] (==) Matched fbdev as autoconfigured driver 2
+[    33.491] (==) Assigned the driver to the xf86ConfigLayout
+[    33.491] (II) LoadModule: "intel"
+[    33.499] (II) Loading /usr/local/lib/xorg/modules/drivers/intel_drv.so
+[    33.548] (II) Module intel: vendor="X.Org Foundation"
+[    33.548] 	compiled for 1.14.7, module version = 2.21.15
+[    33.548] 	Module class: X.Org Video Driver
+[    33.548] 	ABI class: X.Org Video Driver, version 14.1
+[    33.548] (II) LoadModule: "vesa"
+[    33.549] (II) Loading /usr/local/lib/xorg/modules/drivers/vesa_drv.so
+[    33.552] (II) Module vesa: vendor="X.Org Foundation"
+[    33.552] 	compiled for 1.14.7, module version = 2.3.3
+[    33.552] 	Module class: X.Org Video Driver
+[    33.552] 	ABI class: X.Org Video Driver, version 14.1
+[    33.552] (II) LoadModule: "fbdev"
+[    33.557] (WW) Warning, couldn't open module fbdev
+[    33.557] (II) UnloadModule: "fbdev"
+[    33.557] (II) Unloading fbdev
+[    33.557] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    33.557] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43, HD Graphics,
+	HD Graphics 2000, HD Graphics 3000, HD Graphics 2500,
+	HD Graphics 4000, HD Graphics P4000, HD Graphics 4600,
+	HD Graphics 5000, HD Graphics P4600/P4700, Iris(TM) Graphics 5100,
+	HD Graphics 4400, HD Graphics 4200, Iris(TM) Pro Graphics 5200
+[    33.560] (II) VESA: driver for VESA chipsets: vesa
+[    33.560] (--) Using syscons driver with X support (version 2.0)
+[    33.560] (--) using VT number 9
+
+[    33.876] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    33.876] (II) Loading sub module "vbe"
+[    33.876] (II) LoadModule: "vbe"
+[    33.877] (II) Loading /usr/local/lib/xorg/modules/libvbe.so
+[    33.892] (II) Module vbe: vendor="X.Org Foundation"
+[    33.892] 	compiled for 1.14.7, module version = 1.1.0
+[    33.892] 	ABI class: X.Org Video Driver, version 14.1
+[    33.892] (II) Loading sub module "int10"
+[    33.892] (II) LoadModule: "int10"
+[    33.893] (II) Loading /usr/local/lib/xorg/modules/libint10.so
+[    33.926] (II) Module int10: vendor="X.Org Foundation"
+[    33.926] 	compiled for 1.14.7, module version = 1.0.0
+[    33.926] 	ABI class: X.Org Video Driver, version 14.1
+[    33.926] (II) VESA(0): initializing int10
+[    33.927] (EE) VESA(0): No V_BIOS found
+[    33.927] (II) UnloadModule: "vesa"
+[    33.927] (II) UnloadSubModule: "int10"
+[    33.927] (II) Unloading int10
+[    33.927] (II) UnloadSubModule: "vbe"
+[    33.927] (II) Unloading vbe
+[    33.927] (EE) Screen(s) found, but none have a usable configuration.
+[    33.927] (EE) 
+Fatal server error:
+[    33.928] (EE) no screens found(EE) 
+[    33.928] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[    33.928] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[    33.928] (EE) 
+[    33.929] (EE) Server terminated with error (1). Closing log file.
