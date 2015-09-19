@@ -1,0 +1,396 @@
+Script started on Sat Sep 19 18:50:05 2015
+command: startx
+xauth:  file /root/.serverauth.58876 does not exist
+
+
+X.Org X Server 1.14.7
+Release Date: 2014-06-05
+X Protocol Version 11, Revision 0
+Build Operating System: FreeBSD 10.2-RELEASE amd64 
+Current Operating System: FreeBSD 7axu.com 10.2-RELEASE FreeBSD 10.2-RELEASE #0 r286666: Wed Aug 12 15:26:37 UTC 2015     root@releng1.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC amd64
+Build Date: 19 September 2015  03:28:21PM
+ 
+Current version of pixman: 0.32.6
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Sat Sep 19 18:50:05 2015
+(==) Using system config directory "/usr/local/share/X11/xorg.conf.d"
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension XFree86-VidModeExtension
+Initializing built-in extension XFree86-DGA
+Initializing built-in extension XFree86-DRI
+Initializing built-in extension DRI2
+Loading extension GLX
+failed to set mtrr: Invalid argument
+/usr/local/bin/startkde: kapplymousetheme: not found
+Loading stage  "initial" 227
+startkde: Starting up...
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+kdeinit5: preparing to launch 'libkdeinit5_klauncher'
+kdeinit5: Launched KLauncher, pid = 58930, result = 0
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Qt: Session management error: networkIdsList argument is NULL
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+kdeinit5: opened connection to :0
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+kdeinit5: preparing to launch 'libkdeinit5_kded5'
+kdeinit5: Launched KDED, pid = 58931 result = 0
+kdeinit5: preparing to launch 'libkdeinit5_kcminit_startup'
+kdeinit5: Launched 'kcminit_startup', pid = 58932 result = 0
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Qt: Session management error: networkIdsList argument is NULL
+kdeinit5: Got SETENV 'KDE_MULTIHEAD=false' from launcher.
+kdeinit5: Got EXT_EXEC '/usr/local/bin/kbuildsycoca5' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/kbuildsycoca5'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+kbuildsycoca5 running...
+checking file timestamps
+Initializing  "kcm_access" :  "kcminit_access"
+kdeinit5: Got EXEC_NEW '/usr/local/bin/kaccess' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/kaccess'
+Initializing  "kcm_style" :  "kcminit_style"
+timestamps check ok
+Emitting notifyDatabaseChanged ()
+kdeinit5: PID 58934 terminated.
+kf5.kded: found kded module "powerdevil" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "statusnotifierwatcher" by prepending 'kded_' to the library path, please fix your metadata.
+kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/root/.gtkrc:/root/.config/gtkrc' from launcher.
+kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/root/.gtkrc-2.0:/root/.config/gtkrc-2.0' from launcher.
+kf5.kded: found kded module "ksysguard" by prepending 'kded_' to the library path, please fix your metadata.
+QCoreApplication::arguments: Please instantiate the QApplication object first
+kdeinit5: PID 58932 terminated.
+kdeinit5: Got EXEC_NEW '/usr/local/lib/libexec/kf5/kconf_update' from launcher.
+kdeinit5: preparing to launch '/usr/local/lib/libexec/kf5/kconf_update'
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+kdeinit5: Got KWRAPPER 'ksmserver' from wrapper.
+kdeinit5: preparing to launch 'libkdeinit5_ksmserver'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+kdeinit5: PID 58940 terminated.
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Qt: Session management error: networkIdsList argument is NULL
+powerdevil: Loading HAL backend...
+powerdevil: Failed!
+powerdevil: KDE Power Management System init failed!
+Configuring Lock Action
+Qt: Session management error: networkIdsList argument is NULL
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.10'
+detected kglobalaccel restarting, re-registering all shortcut keys
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: Phonon::createPath: Cannot connect  Phonon::MediaObject ( no objectName ) to  Phonon::AudioOutput ( no objectName ).
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+kdeinit5: PID 58935 terminated.
+XSync seems available and ready
+XSync Inited
+Supported, init completed
+Created alarm 27262977
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+ksmserver: "/tmp/runtime-root/KSMserver"
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/7axu.com:/tmp/.ICE-unix/58941' from launcher.
+ksmserver: KSMServer: SetAProc_loc: conn  0 , prot= local , file= /tmp/.ICE-unix/58941
+ksmserver: KSMServer::restoreSession  "saved at previous logout"
+kdeinit5: Got EXEC_NEW '/usr/local/bin/baloo_file' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/baloo_file'
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.10'
+kdeinit5: Got EXEC_NEW '/usr/local/bin/krunner' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/krunner'
+QLayout: Attempting to add QLayout "" to QWidget "", which already has a layout
+detected kglobalaccel restarting, re-registering all shortcut keys
+Qt: Session management error: networkIdsList argument is NULL
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+QKqueueFileSystemWatcherEngine::addPaths: open: 文件或目录不存在
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+Setting the name:  "org.kde.ActivityManager.Resources.Scoring"
+Creating directory:  "/root/.local/share/kactivitymanagerd/resources/"
+KActivities: Database connection:  "kactivities_db_resources_34561090560_readwrite" 
+    query_only:          QVariant(qlonglong, 0) 
+    journal_mode:        QVariant(QString, "wal") 
+    wal_autocheckpoint:  QVariant(qlonglong, 100) 
+    synchronous:         QVariant(qlonglong, 1)
+QObject::connect: Cannot connect (null)::ProcessedResourceEvents(EventList) to StatsPlugin::addEvents(EventList)
+QObject::connect: Cannot connect (null)::RegisteredResourceMimetype(QString, QString) to StatsPlugin::saveResourceMimetype(QString, QString)
+QObject::connect: Cannot connect (null)::RegisteredResourceTitle(QString, QString) to StatsPlugin::saveResourceTitle(QString, QString)
+QObject::connect: Cannot connect (null)::pluginConfigChanged() to StatsPlugin::loadConfiguration()
+QObject::connect: Cannot connect (null)::RegisteredResourceEvent(Event) to SlcPlugin::registeredResourceEvent(Event)
+QObject::connect: Cannot connect (null)::RegisteredResourceMimetype(QString, QString) to SlcPlugin::registeredResourceMimetype(QString, QString)
+QObject::connect: Cannot connect (null)::RegisteredResourceTitle(QString, QString) to SlcPlugin::registeredResourceTitle(QString, QString)
+Setting the name:  "org.kde.ActivityManager.ActivityTemplates"
+Service started, version: 6.2.0
+XSync seems available and ready
+XSync Inited
+Supported, init completed
+Created alarm 35651585
+org.kde.baloo: "/root"
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+completeShutdownOrCheckpoint called
+kdeinit5: Got EXEC_NEW '/usr/local/bin/plasmashell' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/plasmashell'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.10'
+BlueDaemon: Already in OfflineMode
+QKqueueFileSystemWatcherEngine::addPaths: open: 文件或目录不存在
+detected kglobalaccel restarting, re-registering all shortcut keys
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+Icon theme "oxygen" not found.
+ksmserver: Autostart 0 done
+kcminit not running? If we are running with mobile profile or in another platform other than X11 this is normal.
+ksmserver: Kcminit phase 1 done
+ksmserver: Autostart 1 done
+kf5.kded: found kded module "remotedirnotify" by prepending 'kded_' to the library path, please fix your metadata.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+kf5.kded: found kded module "freespacenotifier" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "keyboard" by prepending 'kded_' to the library path, please fix your metadata.
+kcm_keyboard: Fetched layout groups from X server: 	layouts: ("us") 	variants: ("")
+kcm_keyboard: Parsing xkb rules from "/usr/local/share/X11/xkb/rules/base.xml"
+kcm_keyboard: xkbConfigRegistry version "1.1"
+"Trying to convert empty KLocalizedString to QString."
+"Trying to convert empty KLocalizedString to QString."
+"Trying to convert empty KLocalizedString to QString."
+kcm_keyboard: Parsing xkb rules from "/usr/local/share/X11/xkb/rules/base.extras.xml"
+kcm_keyboard: Merged from extra rules: 37 layouts, 0 models, 0 option groups
+kcm_keyboard: Configuring keyboard
+kcm_keyboard: configuring layouts false configuring options false
+kcm_keyboard: Fetched layout groups from X server: 	layouts: ("us") 	variants: ("")
+kcm_keyboard: Cleaning component shortcuts on load false
+kcm_keyboard: Registered for new device events from XInput, class 81
+kcm_keyboard: qCoreApp QApplication(0x7fffffffe158)
+kcm_keyboard: loginMode: ""
+Failed to open layout memory xml file for reading "/root/.local/share/kded5/keyboard/session/layout_memory.xml" error: 5
+kf5.kded: found kded module "ktimezoned" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "appmenu" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "khotkeys" by prepending 'kded_' to the library path, please fix your metadata.
+Installing the delayed initialization callback.
+kf5.kded: found kded module "kwrited" by prepending 'kded_' to the library path, please fix your metadata.
+"file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/runcommand/RunCommand.qml" 
+ "Error loading QML file.
+19: module "QtQuick.Layouts" is not installed
+"
+kf5.kded: found kded module "solidautoeject" by prepending 'kded_' to the library path, please fix your metadata.
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+Delayed initialization.
+ksmserver: Starting notification thread
+ksmserver: Kcminit phase 2 done
+ksmserver: Autostart 2 done
+Reloading the khotkeys configuration
+Version 2 File!
+SHO QKeySequence("")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+I")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+H")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+T")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+W")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+W")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+B")
+SHO QObject(0x0) 
+SHO QKeySequence("Meta+E")
+SHO QObject(0x0) 
+SHO QKeySequence("Print")
+SHO QObject(0x0) 
+true
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Imported file "/usr/local/share/khotkeys/kde32b1.khotkeys"
+Imported file "/usr/local/share/khotkeys/konqueror_gestures_kde321.khotkeys"
+Imported file "/usr/local/share/khotkeys/printscreen.khotkeys"
+Imported file "/usr/local/share/khotkeys/defaults.khotkeys"
+"file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/osd/Osd.qml" 
+ "Error loading QML file.
+55: Type OsdItem unavailable
+51: Type PlasmaComponents.ProgressBar unavailable
+22: module "QtQuick.Controls" is not installed
+"
+Failed to load OSD QML file
+kscreen: launcherDataAvailable: "org.kde.KScreen.Backend.XRandR"
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+QQmlComponent: Component is not ready
+QCoreApplication::postEvent: Unexpected null receiver
+unversioned plugin detected, may result in instability
+QQmlComponent: Component is not ready
+QCoreApplication::postEvent: Unexpected null receiver
+QQmlComponent: Component is not ready
+"file:///usr/local/share/plasma/packages/org.kde.desktoptoolbox/contents/ui/ToolBoxRoot.qml" 
+ "Error loading QML file.
+87: Type ToolBoxItem unavailable
+22: module "QtQuick.Layouts" is not installed
+"
+requesting config for "??" without a containment!
+QQmlComponent: Component is not ready
+QCoreApplication::postEvent: Unexpected null receiver
+"file:///usr/local/share/plasma/shells/org.kde.plasma.desktop/contents/views/Panel.qml" 
+ "Error loading QML file.
+20: module "QtQuick.Layouts" is not installed
+"
+Could not set containment property on rootObject
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 2413, resource id: 4194336, major code: 18 (ChangeProperty), minor code: 0
+file:///usr/local/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ContainmentConfiguration.qml:20:1: module "QtQuick.Layouts" is not installed 
+     import QtQuick.Layouts 1.0 
+     ^
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 8840, resource id: 29360188, major code: 25 (SendEvent), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 8841, resource id: 29360188, major code: 15 (QueryTree), minor code: 0
+Shutdown called with confirm  -1  type  -1  and mode  -1
+After modifications confirm is  -1  type is  0  and mode  3
+file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml:36:5: Type LogoutScreen unavailable 
+         LogoutScreen { 
+         ^
+file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:21:1: module "QtQuick.Layouts" is not installed 
+     import QtQuick.Layouts 1.1 
+     ^
+file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:22:1: module "QtQuick.Controls" is not installed 
+     import QtQuick.Controls 1.1 as Controls 
+     ^
+file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:21:1: module "QtQuick.Layouts" is not installed 
+     import QtQuick.Layouts 1.1 
+     ^
+file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:22:1: module "QtQuick.Controls" is not installed 
+     import QtQuick.Controls 1.1 as Controls 
+     ^
+(file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml:36:5: Type LogoutScreen unavailable
+        LogoutScreen {
+        ^, file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:21:1: module "QtQuick.Layouts" is not installed
+    import QtQuick.Layouts 1.1
+    ^, file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:22:1: module "QtQuick.Controls" is not installed
+    import QtQuick.Controls 1.1 as Controls
+    ^, file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:21:1: module "QtQuick.Layouts" is not installed
+    import QtQuick.Layouts 1.1
+    ^, file:///usr/local/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/components/LogoutScreen.qml:22:1: module "QtQuick.Controls" is not installed
+    import QtQuick.Controls 1.1 as Controls
+    ^)
+QObject::connect: Cannot connect (null)::logoutRequested() to KSMShutdownDlg::slotLogout()
+QObject::connect: Cannot connect (null)::haltRequested() to KSMShutdownDlg::slotHalt()
+QObject::connect: Cannot connect (null)::suspendRequested(int) to KSMShutdownDlg::slotSuspend(int)
+QObject::connect: Cannot connect (null)::rebootRequested() to KSMShutdownDlg::slotReboot()
+QObject::connect: Cannot connect (null)::rebootRequested2(int) to KSMShutdownDlg::slotReboot(int)
+QObject::connect: Cannot connect (null)::cancelRequested() to KSMShutdownDlg::reject()
+QObject::connect: Cannot connect (null)::lockScreenRequested() to KSMShutdownDlg::slotLockScreen()
+kcm_keyboard: configuring layouts false configuring options false
+kcm_keyboard: Fetched layout groups from X server: 	layouts: ("us") 	variants: ("")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^Cxinit: connection to X server lost
+
+waiting for X server to shut down kdeinit5: Fatal IO error: client killed
+kdeinit5: sending SIGHUP to children.
+klauncher: Exiting on signal 1
+终端线路挂断
+GOT SIGHUP
+The X11 connection broke (error 1). Did the X11 server die?
+The X11 connection broke (error 1). Did the X11 server die?
+kdeinit5: sending SIGTERM to children.
+kdeinit5: Exit.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+The X11 connection broke (error 1). Did the X11 server die?
+The X11 connection broke (error 1). Did the X11 server die?
+QSocketNotifier: Socket notifiers cannot be enabled or disabled from another thread
+QtDBus: cannot relay signals from parent QObject(0x80bce6480 "") unless they are emitted in the object's thread QThread(0x80bc1b1e0 ""). Current thread is QThread(0x81ec15040 "").
+QProcess: Destroyed while process ("kwin_x11") is still running.
+(EE) Server terminated successfully (0). Closing log file.
+Could not connect to D-Bus server: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /tmp/dbus-E5C6MUioyQ: 文件或目录不存在
+startkde: Shutting down...
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+kdeinit5_wrapper: Warning: connect(/tmp/runtime-root/kdeinit5__0) failed: : No such file or directory
+Error: Can not contact kdeinit5!
+startkde: Running shutdown scripts...
+xprop:  unable to open display ':0'
+xprop:  unable to open display ':0'
+startkde: Done.
+
+xinit: unexpected signal 2
+
+Script done on Sat Sep 19 18:50:58 2015
