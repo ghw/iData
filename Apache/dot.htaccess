@@ -1,0 +1,12 @@
+# 强制 HTTPS 跳转
+RewriteEngine On
+RewriteCond %{HTTP:KERSSL} !on
+RewriteRule .* https://www.gehaowu.com/$1 [R=301,L]
+# 设置 404 页面
+ErrorDocument 404 /404.html
+# 设置缓存策略
+ExpiresActive On
+ExpiresDefault "access plus 1 days"
+<FilesMatch "\.(css|gif|jpeg|jpg|js|png|ico|bmp|svg|doc|pdf|mp3|ogg|mp4|mpeg|webm|eot|ttf|woff)$">
+ExpiresDefault "access plus 3 days"
+</FilesMatch>
