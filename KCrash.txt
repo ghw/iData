@@ -1,0 +1,715 @@
+Script started on Sun Sep 20 09:20:54 2015
+command: startx
+xauth:  file /home/ghw/.serverauth.3145 does not exist
+
+
+X.Org X Server 1.14.7
+Release Date: 2014-06-05
+X Protocol Version 11, Revision 0
+Build Operating System: FreeBSD 10.2-RELEASE amd64 
+Current Operating System: FreeBSD 7axu.com 10.2-RELEASE FreeBSD 10.2-RELEASE #0 r286666: Wed Aug 12 15:26:37 UTC 2015     root@releng1.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC amd64
+Build Date: 19 September 2015  03:28:21PM
+ 
+Current version of pixman: 0.32.6
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Sun Sep 20 09:20:54 2015
+(==) Using system config directory "/usr/local/share/X11/xorg.conf.d"
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension XFree86-VidModeExtension
+Initializing built-in extension XFree86-DGA
+Initializing built-in extension XFree86-DRI
+Initializing built-in extension DRI2
+Loading extension GLX
+failed to set mtrr: Invalid argument
+/usr/local/bin/startkde: kapplymousetheme: not found
+Loading stage  "initial" 194
+startkde: Starting up...
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kdeinit5: preparing to launch 'libkdeinit5_klauncher'
+kdeinit5: Launched KLauncher, pid = 3199, result = 0
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+Qt: Session management error: networkIdsList argument is NULL
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kdeinit5: opened connection to :0
+kdeinit5: preparing to launch 'libkdeinit5_kded5'
+kdeinit5: Launched KDED, pid = 3200 result = 0
+kdeinit5: preparing to launch 'libkdeinit5_kcminit_startup'
+kdeinit5: Launched 'kcminit_startup', pid = 3201 result = 0
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+Qt: Session management error: networkIdsList argument is NULL
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kdeinit5: Got EXT_EXEC '/usr/local/bin/kbuildsycoca5' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/kbuildsycoca5'
+kdeinit5: Got SETENV 'KDE_MULTIHEAD=false' from launcher.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kbuildsycoca5 running...
+checking file timestamps
+Initializing  "kcm_style" :  "kcminit_style"
+timestamps check ok
+Emitting notifyDatabaseChanged ()
+kdeinit5: PID 3203 terminated.
+kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/ghw/.gtkrc:/home/ghw/.config/gtkrc' from launcher.
+kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/ghw/.gtkrc-2.0:/home/ghw/.config/gtkrc-2.0' from launcher.
+Initializing  "kcm_access" :  "kcminit_access"
+kf5.kded: found kded module "powerdevil" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "statusnotifierwatcher" by prepending 'kded_' to the library path, please fix your metadata.
+kdeinit5: Got EXEC_NEW '/usr/local/bin/kaccess' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/kaccess'
+kdeinit5: PID 3201 terminated.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kf5.kded: found kded module "ksysguard" by prepending 'kded_' to the library path, please fix your metadata.
+kdeinit5: Got EXEC_NEW '/usr/local/lib/libexec/kf5/kconf_update' from launcher.
+kdeinit5: preparing to launch '/usr/local/lib/libexec/kf5/kconf_update'
+kdeinit5: Got KWRAPPER 'ksmserver' from wrapper.
+kdeinit5: preparing to launch 'libkdeinit5_ksmserver'
+QCoreApplication::arguments: Please instantiate the QApplication object first
+kdeinit5: PID 3208 terminated.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+Qt: Session management error: networkIdsList argument is NULL
+powerdevil: Loading HAL backend...
+powerdevil: Failed!
+powerdevil: KDE Power Management System init failed!
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+Configuring Lock Action
+Qt: Session management error: networkIdsList argument is NULL
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.10'
+detected kglobalaccel restarting, re-registering all shortcut keys
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: Phonon::createPath: Cannot connect  Phonon::MediaObject ( no objectName ) to  Phonon::AudioOutput ( no objectName ).
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
+kdeinit5: PID 3206 terminated.
+XSync seems available and ready
+XSync Inited
+Supported, init completed
+Created alarm 25165825
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+ksmserver: "/tmp/runtime-ghw/KSMserver"
+ksmserver: KSMServer: SetAProc_loc: conn  0 , prot= local , file= /tmp/.ICE-unix/3209
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/7axu.com:/tmp/.ICE-unix/3209' from launcher.
+ksmserver: KSMServer::restoreSession  "saved at previous logout"
+kdeinit5: Got EXEC_NEW '/usr/local/bin/baloo_file' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/baloo_file'
+kdeinit5: Got EXEC_NEW '/usr/local/bin/krunner' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/krunner'
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.10'
+detected kglobalaccel restarting, re-registering all shortcut keys
+Qt: Session management error: networkIdsList argument is NULL
+QLayout: Attempting to add QLayout "" to QWidget "", which already has a layout
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+QKqueueFileSystemWatcherEngine::addPaths: open: 文件或目录不存在
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+XSync seems available and ready
+XSync Inited
+Supported, init completed
+Created alarm 35651585
+org.kde.baloo: "/home/ghw"
+org.kde.baloo: Failed to create watch for "/home/ghw/??????" ????????
+Setting the name:  "org.kde.ActivityManager.Resources.Scoring"
+Creating directory:  "/home/ghw/.local/share/kactivitymanagerd/resources/"
+org.kde.baloo: Failed to create watch for "/home/ghw/OLDOLD/???????????????" ????????
+KActivities: Database connection:  "kactivities_db_resources_34561090560_readwrite" 
+    query_only:          QVariant(qlonglong, 0) 
+    journal_mode:        QVariant(QString, "wal") 
+    wal_autocheckpoint:  QVariant(qlonglong, 100) 
+    synchronous:         QVariant(qlonglong, 1)
+QObject::connect: Cannot connect (null)::ProcessedResourceEvents(EventList) to StatsPlugin::addEvents(EventList)
+QObject::connect: Cannot connect (null)::RegisteredResourceMimetype(QString, QString) to StatsPlugin::saveResourceMimetype(QString, QString)
+QObject::connect: Cannot connect (null)::RegisteredResourceTitle(QString, QString) to StatsPlugin::saveResourceTitle(QString, QString)
+QObject::connect: Cannot connect (null)::pluginConfigChanged() to StatsPlugin::loadConfiguration()
+QObject::connect: Cannot connect (null)::RegisteredResourceEvent(Event) to SlcPlugin::registeredResourceEvent(Event)
+QObject::connect: Cannot connect (null)::RegisteredResourceMimetype(QString, QString) to SlcPlugin::registeredResourceMimetype(QString, QString)
+QObject::connect: Cannot connect (null)::RegisteredResourceTitle(QString, QString) to SlcPlugin::registeredResourceTitle(QString, QString)
+Setting the name:  "org.kde.ActivityManager.ActivityTemplates"
+Service started, version: 6.2.0
+org.kde.baloo: Failed to create watch for "/home/ghw/OLDOLD/??????" ????????
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kdeinit5: Got EXEC_NEW '/usr/local/bin/plasmashell' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/plasmashell'
+completeShutdownOrCheckpoint called
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.10'
+BlueDaemon: Already in OfflineMode
+QKqueueFileSystemWatcherEngine::addPaths: open: 文件或目录不存在
+detected kglobalaccel restarting, re-registering all shortcut keys
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+ksmserver: Autostart 0 done
+kcminit not running? If we are running with mobile profile or in another platform other than X11 this is normal.
+ksmserver: Kcminit phase 1 done
+ksmserver: Autostart 1 done
+kdeinit5: Got EXEC_NEW '/usr/local/lib/libexec/kf5/kscreen_backend_launcher' from launcher.
+kdeinit5: preparing to launch '/usr/local/lib/libexec/kf5/kscreen_backend_launcher'
+kscreen.backendLauncher: Requested backend: ""
+kscreen.backendLauncher: Lookup paths:  ("/usr/local/lib/qt5/plugins", "/usr/local/lib/libexec/kf5", "/usr/local/lib/plugins")
+kscreen.backendLauncher: Trying "/usr/local/lib/qt5/plugins/kf5/kscreen/KSC_XRandR.so"
+kf5.kded: found kded module "khotkeys" by prepending 'kded_' to the library path, please fix your metadata.
+Installing the delayed initialization callback.
+kf5.kded: found kded module "ktimezoned" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "freespacenotifier" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "solidautoeject" by prepending 'kded_' to the library path, please fix your metadata.
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+kf5.kded: found kded module "appmenu" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "kwrited" by prepending 'kded_' to the library path, please fix your metadata.
+kf5.kded: found kded module "remotedirnotify" by prepending 'kded_' to the library path, please fix your metadata.
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kf5.kded: found kded module "keyboard" by prepending 'kded_' to the library path, please fix your metadata.
+QKqueueFileSystemWatcherEngine::addPaths: open: 文件或目录不存在
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+kcm_keyboard: Fetched layout groups from X server: 	layouts: ("us") 	variants: ("")
+kcm_keyboard: Parsing xkb rules from "/usr/local/share/X11/xkb/rules/base.xml"
+kcm_keyboard: xkbConfigRegistry version "1.1"
+Trying to use rootObject before initialization is completed, whilst using setInitializationDelayed. Forcing completion
+"Trying to convert empty KLocalizedString to QString."
+"Trying to convert empty KLocalizedString to QString."
+"Trying to convert empty KLocalizedString to QString."
+kcm_keyboard: Parsing xkb rules from "/usr/local/share/X11/xkb/rules/base.extras.xml"
+kcm_keyboard: Merged from extra rules: 37 layouts, 0 models, 0 option groups
+kcm_keyboard: Configuring keyboard
+kcm_keyboard: configuring layouts false configuring options false
+kcm_keyboard: Fetched layout groups from X server: 	layouts: ("us") 	variants: ("")
+kcm_keyboard: Cleaning component shortcuts on load false
+kcm_keyboard: Registered for new device events from XInput, class 81
+kcm_keyboard: qCoreApp QApplication(0x7fffffffe128)
+kscreen.xrandr: Connected output 378 to CRTC 377
+kcm_keyboard: loginMode: ""
+kcm_keyboard: Restoring keyboard layout map from "/home/ghw/.local/share/kded5/keyboard/session/layout_memory.xml"
+kscreen.xcb.helper: Detected XRandR 1.4
+kscreen.xcb.helper: Event Base:  88
+kscreen.xcb.helper: Event Error:  145
+kscreen.backendLauncher: Loading "XRandR" backend
+Delayed initialization.
+ksmserver: Starting notification thread
+ksmserver: Kcminit phase 2 done
+ksmserver: Autostart 2 done
+Reloading the khotkeys configuration
+org.kde.KScreen.Backend.XRandRVersion 2 File!
+SHO QKeySequence("")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+I")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+H")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+T")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+W")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+W")
+SHO QObject(0x0) 
+SHO QKeySequence("Ctrl+Alt+B")
+SHO QObject(0x0) 
+SHO QKeySequence("Meta+E")
+SHO QObject(0x0) 
+SHO QKeySequence("Print")
+SHO QObject(0x0) 
+true
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+Imported file "/usr/local/share/khotkeys/kde32b1.khotkeys"
+Imported file "/usr/local/share/khotkeys/konqueror_gestures_kde321.khotkeys"
+Imported file "/usr/local/share/khotkeys/printscreen.khotkeys"
+Imported file "/usr/local/share/khotkeys/defaults.khotkeys"
+kscreen: launcherDataAvailable: "org.kde.KScreen.Backend.XRandR"
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 966, resource id: 46137350, major code: 18 (ChangeProperty), minor code: 0
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+kscreen: Launcher finished with exit code 1 , status 0
+kscreen: Service for requested backend already running
+Registering "org.kde.StatusNotifierHost-3221" as system tray
+Known plasmoid ids: QHash(("org.kde.plasma.notifications", 11)("org.kde.plasma.clipboard", 9)("org.kde.plasma.devicenotifier", 10))
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/clipboard.qml:32: TypeError: Cannot read property 'empty' of undefined
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.clipboard/contents/ui/clipboard.qml:34: TypeError: Cannot read property 'empty' of undefined
+QKqueueFileSystemWatcherEngine::addPaths: open: 文件或目录不存在
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:116: TypeError: Cannot read property 'corner' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:67: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:68: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:69: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:70: TypeError: Cannot read property 'padding' of null
+Notifications service registered
+XSync seems available and ready
+XSync Inited
+Supported, init completed
+Plasma Shell startup completed
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/DigitalClock.qml:428:5: QML Text: Cannot anchor to a null item.
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 6903, resource id: 4194336, major code: 18 (ChangeProperty), minor code: 0
+trying to show an empty dialog
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:110:17: Unable to assign [undefined] to QObject*
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:100: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:89: TypeError: Cannot read property 'effectivePressed' of undefined
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:110:17: Unable to assign [undefined] to QObject*
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:100: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:89: TypeError: Cannot read property 'effectivePressed' of undefined
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:116: TypeError: Cannot read property 'corner' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:67: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:68: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:69: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:70: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:116: TypeError: Cannot read property 'corner' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:67: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:68: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:69: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:70: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:110:17: Unable to assign [undefined] to QObject*
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:100: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Button.qml:89: TypeError: Cannot read property 'effectivePressed' of undefined
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffItem.qml:141:9: QML Text: Binding loop detected for property "y"
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ApplicationsView.qml:181:27: QML KickoffItem: Binding loop detected for property "height"
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:116: TypeError: Cannot read property 'corner' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:67: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:68: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:69: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:70: TypeError: Cannot read property 'padding' of null
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+virtual QStringList Solid::Backends::Hal::HalManager::allDevices()  error:  "org.freedesktop.DBus.Error.ServiceUnknown" 
+
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffItem.qml:141:9: QML Text: Binding loop detected for property "y"
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/BaseView.qml:66:27: QML KickoffItem: Binding loop detected for property "height"
+QQuickItem::ungrabMouse(): Item is not the mouse grabber.
+Opening item with URL "/usr/local/share/applications/org.kde.Help.desktop"
+kdeinit5: Got EXT_EXEC '/usr/local/bin/khelpcenter' from launcher.
+kdeinit5: preparing to launch '/usr/local/bin/khelpcenter'
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 16359, resource id: 46137345, major code: 18 (ChangeProperty), minor code: 0
+Recent app added "org.kde.Help.desktop" 1
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 16486, resource id: 46137346, major code: 18 (ChangeProperty), minor code: 0
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+Main template file name is empty.
+Unable to read Formatter templates.
+DocMetaInfo()
+-- langcode:  "zh-CN"  cfgfile:  ""
+DocMetaInfo::scanMetaInfo(): scanning  "/usr/local/share/khelpcenter/plugins"
+org.kde.khelpcenter: Requested KCM documents for ID "kcontrol"
+org.kde.khelpcenter: Requested KCM documents for ID "konquerorcontrol"
+org.kde.khelpcenter: Requested KCM documents for ID "filemanagercontrol"
+org.kde.khelpcenter: Requested KCM documents for ID "browsercontrol"
+org.kde.khelpcenter: Requested KCM documents for ID "othercontrol"
+org.kde.khelpcenter: Requested KCM documents for ID "kinfocenter"
+org.kde.khelpcenter: Requested IOSlave documents for ID "kioslave"
+org.kde.khelpcenter: ScrollKeeper language:  "zh"
+org.kde.khelpcenter: Could not execute scrollkeeper-get-content-list
+org.kde.khelpcenter: Populating info tree.
+org.kde.khelpcenter: Parsing info dir file  "/usr/share/info/dir"
+org.kde.khelpcenter: Parsing info dir file  "/usr/local/info/dir"
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+no winId: probably startup task
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+"Interpolation {$[~stripAccel %1]} in {$[~stripAccel %1]} failed: Unregistered call to '~stripAccel'."
+kdeinit5: PID 3227 terminated.
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 25861, resource id: 46137362, major code: 18 (ChangeProperty), minor code: 0
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:116: TypeError: Cannot read property 'corner' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:67: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:68: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:69: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:70: TypeError: Cannot read property 'padding' of null
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffItem.qml:141:9: QML Text: Binding loop detected for property "y"
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/BaseView.qml:66:27: QML KickoffItem: Binding loop detected for property "height"
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollBar.qml:95: TypeError: Cannot read property of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:116: TypeError: Cannot read property 'corner' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:67: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:68: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:69: TypeError: Cannot read property 'padding' of null
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:70: TypeError: Cannot read property 'padding' of null
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/KickoffLeaveItem.qml:125:9: QML Text: Binding loop detected for property "y"
+file:///usr/local/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/LeaveView.qml:27:15: QML KickoffLeaveItem: Binding loop detected for property "height"
+Opening item with URL "leave:/logoutonly"
+Shutdown called with confirm  -1  type  0  and mode  -1
+After modifications confirm is  -1  type is  0  and mode  3
+file:///usr/local/lib/qt5/qml/QtQuick/Controls/Styles/Base/ButtonStyle.qml:153:31: QML Item: Binding loop detected for property "implicitWidth"
+saveSession is  true
+ksmserver: Saving legacy session apps
+ksmserver: Done saving  1  legacy session apps
+clients should be empty,  false
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+completeShutdownOrCheckpoint called
+state is  7
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 35788, resource id: 29360159, major code: 20 (GetProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 35790, resource id: 29360159, major code: 20 (GetProperty), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 35826, resource id: 29360149, major code: 15 (QueryTree), minor code: 0
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 35835, resource id: 29360159, major code: 15 (QueryTree), minor code: 0
+settingsFile:  "/home/ghw/.config/ksmserverrc"
+settingsFile:  "/home/ghw/.config/ksmserverrc"
+ksmserver: Starting killing clients
+ksmserver: completeShutdown: client  "/usr/local/bin/baloo_file" ( 1065c4e7e2000144271205600000032090000 )
+ksmserver: completeShutdown: client  "/usr/local/bin/krunner" ( 1065c4e7e2000144271205600000032090001 )
+ksmserver: completeShutdown: client  "kwinsmhelper" ( 1065c4e7e2000144271205600000032090002 )
+ksmserver: completeShutdown: client  "/usr/local/bin/plasmashell" ( 1065c4e7e2000144271205600000032090003 )
+ksmserver: completeShutdown: client  "/usr/local/lib/libexec/kf5/kscreen_backend_launcher" ( 1065c4e7e2000144271184600000030790005 )
+ksmserver:  We killed all clients. We have now clients.count()= 6 
+
+ksmserver: KSMServer::completeKilling clients.count()= 6 
+
+kscreen.backendLauncher: Unloading "/usr/local/lib/qt5/plugins/kf5/kscreen/KSC_XRandR.so"
+kscreen.backendLauncher: Backend loader destroyed
+ksmserver: KSMServer::completeKilling clients.count()= 5 
+
+ksmserver: KSMServer::completeKilling clients.count()= 4 
+
+ksmserver: KSMServer::completeKilling clients.count()= 3 
+
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 36388, resource id: 41943046, major code: 18 (ChangeProperty), minor code: 0
+kdeinit5: PID 3222 terminated.
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 36393, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+ksmserver: KSMServer::completeKilling clients.count()= 2 
+
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 36402, resource id: 37748755, major code: 18 (ChangeProperty), minor code: 0
+kdeinit5: PID 3219 terminated.
+Service  "org.kde.StatusNotifierHost-3221" unregistered
+kdeinit5: PID 3220 terminated.
+requesting unexisting screen 0
+requesting unexisting screen 0
+requesting unexisting screen 0
+requesting unexisting screen 0
+ksmserver: KSMServer::completeKilling clients.count()= 1 
+
+ksmserver: Starting killing WM
+ksmserver: killWM: client  "kwin_x11" ( 1065c4e7e2000144271184500000030790002 )
+ksmserver: KSMServer::completeKillingWM clients.count()= 1 
+
+ksmserver: KSMServer::completeKillingWM clients.count()= 1 
+
+QApplication::qAppName: Please instantiate the QApplication object first
+ksmserver: KSMServer::completeKillingWM clients.count()= 0 
+
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kdeinit5: PID 3221 terminated.
+Assertion failed: (pthreadret == 0), function _xcb_in_wake_up_next_reader, file xcb_in.c, line 848.
+Application::crashHandler() called with signal 6; recent crashes: 1
+QCoreApplication::applicationFilePath: Please instantiate the QApplication object first
+kdeinit5: PID 3209 terminated.
+startkde: Shutting down...
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-ghw'
+kdeinit5: terminate KDE.
+klauncher: Exiting on signal 1
+startkde: Running shutdown scripts...
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+kcm_keyboard: Fetched layout groups from X server: 	layouts: ("us") 	variants: ("")
+kcm_keyboard: loginMode: ""
+kcm_keyboard: Keyboard layout memory stored into "/home/ghw/.local/share/kded5/keyboard/session/layout_memory.xml" written 108
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+startkde: Done.
+xinit: connection to X server lost
+
+waiting for X server to shut down The X11 connection broke (error 1). Did the X11 server die?
+failed to unset mtrr: No such file or directory
+(EE) Server terminated successfully (0). Closing log file.
+--crashes: not found
+KCrash: crashing... crashRecursionCounter = 2
+KCrash: Application Name = kwin_x11 path = /usr/local/bin pid = 3218
+KCrash: Arguments: /usr/local/bin/kwin_x11 -session 1065c4e7e2000144271184500000030790002_1442712012_545209 
+KCrash: Attempting to start /usr/local/lib/libexec/drkonqi from kdeinit
+sock_file=/tmp/runtime-ghw/kdeinit5__0
+Warning: connect() failed: : 文件或目录不存在
+KCrash: Attempting to start /usr/local/lib/libexec/drkonqi directly
+
+
+Script done on Sun Sep 20 09:22:20 2015
